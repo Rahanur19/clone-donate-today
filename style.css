@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+ /* banner segment */
+
+.banner{
+    background: url(images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+
+}
+
+
+
+.banner-title{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 60px;
+    padding: 185px 350px 20px 350px;
+    font-weight: bold;
+    color: white;
+    background-color: #0000008a;
+    
+}
+
+
+.banner-description{
+    text-align: center;
+    font-size: 28px;
+    padding: 0px 220px 185px 220px;
+    color: white;
+    background-color: #0000008a;
+}
+
+.basic-button{
+    background-color: rgb(255, 85, 0);
+    position: absolute;
+    left: 41%;
+    top: 60%;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 12px 12px;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+/* description segment */
+
+
+.des-title{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 185px;}
+
+.des-text{
+    font-size: 30px;
+    color: black;
+    opacity: .7;
+    text-align: center;
+    padding: 45px 300px;
+}
+
+.amounts{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* donation ammount segment */
+
+.amount{
+    background-color: rgba(0, 0, 0, 0.103);
+    border: 2px solid  rgba(255, 85, 0, 0); ;
+    border-radius: 5px;
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.437);
+    padding: 50px 20px;
+}
+
+.amount:hover{
+    background-color:  rgba(255, 85, 0, 0.42); ;
+    color:  rgb(255, 85, 0);;
+    border: 2px solid  rgb(255, 85, 0);;
+
+}
+
+.enter-amount{
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 30%;
+    left: 31%;
+    border-bottom:2px solid grey;
+    padding: 40px 0px 10px 0px;
+    
+
+
+}
+.enter-amount input::placeholder{
+    font-size: 20px;
+  
+}
+.enter-amount input{
+    outline: none;
+    border: 0px solid red;
+    height: 20px;
+    padding: 20px 150px;
+    width: 70%;
+}
+.basic-button2{
+    background-color: rgb(255, 85, 0);
+    position: absolute;
+    margin: 20px;
+    margin-bottom: 108px;
+    left: 41%;
+    top: 165%;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 12px 12px;
+    font-weight: bold;
+    color: white;
+
+}
+
+/* donation plan segment */
+
+.description2 .des-title{
+    position: relative;
+    margin-top: 300px;
+}
+
+.donate-plan{
+    display: flex;
+    padding: 0px 120px;
+    
+}
+
+.plan-title{
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+.plan-description{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.349);
+}
+
+.plan-item{
+    border-radius: 5px;
+    padding: 90px 50px;
+    margin: 30px 20px;
+}
+
+
+.food{
+    background-color: rgba(112, 112, 210, 0.488);
+}
+.shelter{
+    background-color: rgba(225, 50, 228, 0.199);
+    
+}
+
+.education{
+    background-color: rgba(119, 119, 8, 0.563);
+}
+
+/* blog segment */
+
+.blogs{
+    display: flex;
+    margin-top: 60px;
+    gap: 50px;
+    justify-content: center;
+    padding: 0px 200px;
+}
+
+.blog-data{
+    padding: 60px 0px 60px 0px;
+}
+
+.blog-title{
+    font-size: 45px;
+    margin-bottom: 10px;
+   
+    font-weight: bold;
+
+}
+
+.blog-description{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.349);
+}
+.blog-description1{
+    margin: 25px 0px;
+}
+
+.contribute{
+    background-color: rgb(255, 85, 0);
+    position: rekative;
+    left: 41%;
+    top: 165%;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 12px 12px;
+    font-weight: bold;
+    color: white;
+    margin-top: 25px;
+    margin-left: 0px;
+
+}
+
+.blog-pic{
+    height: 400px;
+    width: 450px;
+    border-radius: 5px;
+
+}
+
+.blogs2{
+    flex-direction: row-reverse;
+}
+
+/* get my updates */
+
+.description3 .des-title{
+    margin-top: 100px;
+}
+
+
+
+/* registration segment */
+
+.lastmain{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(117, 117, 15, 0.498);
+    margin: 20px 300px;
+    padding: 90px 0px;
+    border-radius: 3px;
+}
+
+.lastmain input{
+    outline: none;
+    border: 0px;
+    padding: 16px 0px;
+    border-radius: 3px;
+}
+
+.lastmain .email{
+    width: 350px;
+}
+
+.lastmain input::placeholder{
+    font-size: 15px;
+    width: 2000px;
+
+}
+
+.subscribe{
+    background-color: rgb(255, 85, 0); 
+    font-weight: bold;
+    width: 140px;
+    color: white;
+}
+
+.foot{
+    background-color: black;
+    text-align: center;
+}
+
+.motto{
+    font-size: 30px;
+    color: rgb(255, 85, 0);
+    padding: 30px 0px;
+}
+
+.inspire{
+    color: rgba(255, 255, 255, 0.807);
+    padding-bottom: 40px;
+}
+
+.fa-solid, .fa-bowl-rice {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
